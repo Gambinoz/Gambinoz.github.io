@@ -6,22 +6,23 @@
     <title>Manzanas Aglae</title>
     <link rel="stylesheet" href="styles.css">
     <script src="styles.js"></script>
-    <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/Gambinoz/images-/main/logo.jpg">
+    <link rel="icon" type="image/png" href="https://github.com/Gambinoz/images-/blob/main/logo.jpg?raw=true">
 </head>
 <body>
     <header>
-        <img src="https://raw.githubusercontent.com/Gambinoz/images-/main/logo.jpg" class="logo">
+        <img src="https://github.com/Gambinoz/images-/blob/main/logo.jpg?raw=true" class="logo">
         <h1>MANZANAS AGLAE</h1>
     </header>
     <nav class="navbar">
         <ul>
-            <li><a href="#quienes-somos">seccion 1</a></li>
-            <li><a href="#contacto">seccion 2</a></li>
+            <li><a href="#manzanas-con-chile">Acerca de</a></li>
+            <li><a href="#comprar">Comprar manzana</a></li>
         </ul>
         </nav>
  
         <section id="manzanas-con-chile">
-            <h2>Un manjar irresistible: Manzanas con chile</h2>
+            
+            <h4>Acerca de</h4>
             <p>¿Buscas una experiencia de sabor única que combine dulce, picante y ácido? ¡No busques más! Las manzanas con chile son el snack perfecto para quienes buscan algo diferente y delicioso.</p>
             <h3>Elaboradas con:</h3>
             <ul>
@@ -44,15 +45,33 @@
             <p>¡No te pierdas la oportunidad de probar las mejores manzanas con chile del mercado!</p>
             <p>¿Qué esperas? ¡Pide tus manzanas con chile hoy mismo!</p>
         </section>
+
+        <section id="comprar">
+            <div class="container">
+                <h2>Manzana con Chile</h2>
+                <img src="https://boutiquecacao.com/wp-content/uploads/2023/03/MANZANA-ENCHILADA.jpg" alt="Manzana con Chile">
+                <p><strong>Descripción:</strong> Deliciosa manzana cubiertas con chile en polvo.</p>
+                <p><strong>Precio:</strong> $25 por manzana</p>
+                <form action="#" method="post" onsubmit="return comprar()">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required><br><br>
+                    <label for="cantidad">Cantidad de manzanas:</label>
+                    <input type="number" id="cantidad" name="cantidad" min="1" required><br><br>
+                    <p>Total a pagar: <span id="total"></span></p>
+                    <input type="submit" value="Comprar">
+                </form>
+            </div>
+        </section>
     
     <footer>
         <ul>
-            <li><a href="#">Redes sociales</a></li>
-            <li><a href="#">Quiénes somos</a></li>
-            <li><a href="#">Contacta con nosotros</a></li>
-            <li><a href="#">Términos y Condiciones</a></li>
-            <li><a href="#">Política de privacidad</a></li>
+            <li><a src="#">Redes sociales</a></li>
+            <li><a href="https://gambinoz.github.io/aglae/nosotros.html">Nosotros</a></li>
+            <li><a href="https://gambinoz.github.io/aglae/entrevista.html">Entrevista</a></li>
+            <li><a href="https://gambinoz.github.io/aglae/terminos.html">Términos y Condiciones</a></li>
+            <li><a src="https://gambinoz.github.io/aglae/privacidad.html">Política de privacidad</a></li>
         </ul>
+        <ul>Derechos de autor &copy; Equipo 3 Grupo 413</ul>
     </footer>
 </body>
 </html>
