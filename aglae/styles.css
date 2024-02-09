@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-color: #f3cb81;
 }
 
 header {
@@ -40,15 +40,11 @@ nav ul li a {
     text-decoration: none;
 }
 
-section {
-    padding: 20px;
-}
-
 footer {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
 }
 
 footer ul {
@@ -77,8 +73,44 @@ footer ul li a:hover {
 }
 
 section {
-    padding: 20px; /* Añade espacio alrededor del contenido */
-    margin: 20px; /* Añade espacio entre las secciones */
+    padding: 2px; /* Añade espacio alrededor del contenido */
+    margin: 10px; /* Añade espacio entre las secciones */
     max-width: 800px; /* Establece el ancho máximo de los párrafos */
     margin: 0 auto; /* Centra los párrafos horizontalmente */
+}
+h4
+{
+    font-size: 35px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
 }
