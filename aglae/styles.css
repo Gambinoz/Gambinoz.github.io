@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-image: url("https://cdn0.recetasgratis.net/es/posts/2/2/8/manzanas_con_chamoy_74822_orig.jpg");
+    background-size: cover; /* Ajusta la imagen para cubrir toda la sección */
+    background-position: center;
+    color: white;
+    padding: 5px;
+    text-align:center;
+    display: grid;
+    grid-template-columns: auto 1fr; /* Divide el header en dos columnas */
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    -webkit-text-stroke: 3px black; /* Grosor y color del borde */
+}
+
+.navbar {
+    background-color: #a40000; /* Fondo para la barra de navegación */
+    padding: 2px; /* Añade un poco de espacio interno */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: auto;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer ul li a:hover {
+    color: #ff4500;
+}
+
+.logo {
+    max-width: 150px; /* ajusta el tamaño máximo de la imagen según sea necesario */
+    vertical-align: middle; /* alinea la imagen verticalmente */
+}
+
+section {
+    padding: 20px; /* Añade espacio alrededor del contenido */
+    margin: 20px; /* Añade espacio entre las secciones */
+    max-width: 800px; /* Establece el ancho máximo de los párrafos */
+    margin: 0 auto; /* Centra los párrafos horizontalmente */
+}
